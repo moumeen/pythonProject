@@ -1,5 +1,5 @@
 import math
-
+import random
 
 # input = syötteen lukeminen
 name = input ("anna nimesi:")
@@ -29,3 +29,6 @@ print(f" Nimi:{name}, Ikä: {age}, pituus: {height:.2f} metriä.")
 
 
 print(math.pi)
+
+random_number = random.randint(1, 6)
+print(f"satunnainen luku 1-6:{random_number}")
